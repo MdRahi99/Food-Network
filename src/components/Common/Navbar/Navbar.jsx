@@ -53,8 +53,8 @@ const Navbar = () => {
                     <Image
                         src={search}
                         alt="Search Icon"
-                        width={13}
-                        height={13}
+                        width={22}
+                        height={22}
                         quality={100}
                     />
                 </div>
@@ -64,8 +64,8 @@ const Navbar = () => {
                         tabIndex={0}
                         src={dropdown}
                         alt="Dropdown Icon"
-                        width={20}
-                        height={20}
+                        width={22}
+                        height={22}
                         quality={100}
                     />
                     <ul
