@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "01",
+        "image": "/images/orange.png",
+        "title": "Orange",
+        "desc": "Vitamin C"
+    },
+    {
+        "_id": "02",
+        "image": "/images/apple.png",
+        "title": "Apple",
+        "desc": "Vitamin C"
+    },
+    {
+        "_id": "03",
+        "image": "/images/avocado.png",
+        "title": "Avocado",
+        "desc": "Vitamin B6"
+    },
+    {
+        "_id": "04",
+        "image": "/images/avocado.png",
+        "title": "Strawberries",
+        "desc": "Vitamin C"
+    },
+    {
+        "_id": "05",
+        "image": "/images/avocado.png",
+        "title": "Mangoes",
+        "desc": "Vitamin A, C"
+    },
+    {
+        "_id": "06",
+        "image": "/images/avocado.png",
+        "title": "Blueberries",
+        "desc": "Vitamin C, K"
+    },
+    {
+        "_id": "07",
+        "image": "/images/avocado.png",
+        "title": "Grapes",
+        "desc": "Vitamin C, K"
+    },
+    {
+        "_id": "08",
+        "image": "/images/avocado.png",
+        "title": "Pineapples",
+        "desc": "Vitamin C, K"
+    }
+]
