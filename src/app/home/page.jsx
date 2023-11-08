@@ -19,13 +19,13 @@ const HomePage = () => {
             <div className={`block lg:hidden`}>
                 <SelectItem toggleSidebar={toggleSidebar} />
             </div>
-            <div className={`p-4 ${isSidebarVisible ? "block lg:block" : "hidden lg:block"} w-[400px]  lg:w-full lg:col-span-3 bg-[#fff] rounded-r-xl lg:rounded-xl h-[830px]`}>
+            <div className={`p-4 ${isSidebarVisible ? "block lg:block" : "hidden lg:block"} w-[400px]  lg:w-full lg:col-span-2 bg-[#fff] rounded-r-xl lg:rounded-xl h-[830px]`}>
                 <Categories />
             </div>
-            <div className="p-4 lg:col-span-6 bg-[#fff] rounded-xl">
+            <div className="p-4 h-[1190px] lg:col-span-8 bg-[#fff] rounded-xl">
                 <Contents />
             </div>
-            <div className="p-4 hidden lg:block lg:col-span-3 bg-[#fff] rounded-xl h-[280px]">
+            <div className="p-4 hidden lg:block lg:col-span-2 bg-[#fff] rounded-xl h-[280px]">
                 <Settings />
             </div>
         </div>

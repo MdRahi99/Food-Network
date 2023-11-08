@@ -17,10 +17,10 @@ const RootLayout = ({ children }) => {
       <body className={inter.className}>
         <Navbar />
         <div className='flex'>
-          <div className='hidden lg:flex lg:w-16'>
+          <div className='hidden lg:flex h-[830px] lg:w-16'>
             <Sidebar />
           </div>
-          <div className='w-full min-h-screen bg-[#EEF0F2] lg:rounded-tl-3xl rounded-tl-none'>
+          <div className='w-full h-[1276px] bg-[#EEF0F2] lg:rounded-tl-3xl rounded-tl-none'>
             {children}
           </div>
         </div>
