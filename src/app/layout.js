@@ -24,7 +24,7 @@ const RootLayout = ({ children }) => {
             {children}
           </div>
         </div>
-        <div className='block lg:hidden'>
+        <div className='block mt-[700px] lg:hidden'>
           <Footer />
         </div>
       </body>
