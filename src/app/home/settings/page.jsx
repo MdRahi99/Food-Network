@@ -4,6 +4,7 @@ import uparrow from '../../../../public/images/uparrow.png';
 import toggleBtn from '../../../../public/images/toggleBtn.png';
 
 const Settings = () => {
+
     return (
         <div className="flex flex-col gap-5 border-2 border-[#101010] border-opacity-10 p-3 rounded-xl">
             <div className="flex items-center justify-between">
@@ -39,7 +40,7 @@ const Settings = () => {
             <div className="flex flex-col gap-3">
                 <h1 className="font-medium text-[14px] text-[#101010]">Choose Vitamin Type</h1>
                 <select className="focus:outline-none bg-[#101010] bg-opacity-10 text-[#101010] select w-full max-w-xs">
-                    <option selected>All Vitamin</option>
+                    <option defaultValue='All Vitamin'>All Vitamin</option>
                     <option>Vitamin A</option>
                     <option>Vitamin B</option>
                     <option>Vitamin C</option>

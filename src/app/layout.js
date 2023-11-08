@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Common/Navbar/Navbar'
 import Sidebar from '@/components/Common/Sidebar/Sidebar'
+import Footer from '@/components/Common/Footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,9 @@ const RootLayout = ({ children }) => {
           <div className='w-full min-h-screen bg-[#EEF0F2] lg:rounded-tl-3xl rounded-tl-none'>
             {children}
           </div>
+        </div>
+        <div className='block lg:hidden'>
+          <Footer />
         </div>
       </body>
     </html>
