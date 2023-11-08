@@ -1,7 +1,9 @@
+import Empty from "@/components/Common/Empty/Empty";
+
 const VideosPage = () => {
     return (
         <div>
-            <h1>Videos Page</h1>
+            <Empty />
         </div>
     );
 };

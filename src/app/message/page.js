@@ -1,7 +1,9 @@
+import Empty from "@/components/Common/Empty/Empty";
+
 const MessagePage = () => {
     return (
         <div>
-            <h1>Message Page</h1>
+            <Empty />
         </div>
     );
 };

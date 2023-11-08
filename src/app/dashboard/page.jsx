@@ -1,7 +1,9 @@
+import Empty from "@/components/Common/Empty/Empty";
+
 const DashboardPage = () => {
     return (
         <div>
-            <h1>Dashboard Page</h1>
+            <Empty />
         </div>
     );
 };

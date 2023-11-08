@@ -1,7 +1,9 @@
+import Empty from "@/components/Common/Empty/Empty";
+
 const MorePage = () => {
     return (
         <div>
-            <h1>More Page</h1>
+            <Empty />
         </div>
     );
 };
